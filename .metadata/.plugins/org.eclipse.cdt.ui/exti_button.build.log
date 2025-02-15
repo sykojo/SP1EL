@@ -1,0 +1,17 @@
+16:40:50 **** Incremental Build of configuration Debug for project exti_button ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "exti_button.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\exti_button\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exti_button.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: exti_button.elf
+ 
+arm-none-eabi-size  exti_button.elf 
+arm-none-eabi-objdump -h -S exti_button.elf  > "exti_button.list"
+   text	   data	    bss	    dec	    hex	filename
+  18296	     12	   1868	  20176	   4ed0	exti_button.elf
+Finished building: default.size.stdout
+ 
+Finished building: exti_button.list
+ 
+
+16:40:51 Build Finished. 0 errors, 0 warnings. (took 660ms)
+

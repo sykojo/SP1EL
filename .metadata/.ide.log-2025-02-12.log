@@ -1,0 +1,61 @@
+2025-02-13 07:27:52,979 [INFO] WebApp:189 - Connection lost
+2025-02-13 07:28:04,812 [INFO] WebApp:186 - Connection restablished
+2025-02-13 07:28:10,729 [INFO] WebApp:189 - Connection lost
+2025-02-13 07:28:10,881 [INFO] WebApp:186 - Connection restablished
+2025-02-13 07:28:13,787 [INFO] WebApp:189 - Connection lost
+2025-02-13 07:28:13,884 [INFO] WebApp:186 - Connection restablished
+2025-02-13 07:30:36,516 [INFO] WebApp:189 - Connection lost
+2025-02-13 07:30:36,659 [INFO] WebApp:186 - Connection restablished
+2025-02-13 07:55:43,391 [INFO] WebApp:388 - JxBrowser engine has been closed 
+2025-02-13 07:56:06,488 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 791323128 Bytes (1073741824)
+2025-02-13 07:56:06,608 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 807779760 Bytes (1073741824)
+2025-02-13 07:56:06,800 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 835772184 Bytes (1073741824)
+2025-02-13 07:56:06,926 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-02-13 07:56:06,926 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: P-NUCLEO-WB55-NUCLEO
+2025-02-13 07:56:06,926 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-02-13 07:56:06,926 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-02-13 07:56:06,927 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-02-13 07:56:06,927 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-02-13 07:56:06,927 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-02-13 07:56:07,010 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\license.tmp_save
+2025-02-13 07:56:07,261 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\license.tmp
+2025-02-13 07:56:07,304 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\gpio.tmp_save
+2025-02-13 07:56:07,401 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\gpio.tmp
+2025-02-13 07:56:07,404 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-02-13 07:56:07,472 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\stm32wbxx_nucleo_conf.h_save
+2025-02-13 07:56:07,536 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\stm32wbxx_nucleo_conf.h
+2025-02-13 07:56:07,541 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_inc.tmp_save
+2025-02-13 07:56:07,608 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_inc.tmp
+2025-02-13 07:56:07,612 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_vars.tmp_save
+2025-02-13 07:56:07,666 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_vars.tmp
+2025-02-13 07:56:07,671 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_init.tmp_save
+2025-02-13 07:56:07,728 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_init.tmp
+2025-02-13 07:56:07,732 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_demo_before_while.tmp_save
+2025-02-13 07:56:07,786 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_demo_before_while.tmp
+2025-02-13 07:56:07,790 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_demo_inside_while.tmp_save
+2025-02-13 07:56:07,845 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_demo_inside_while.tmp
+2025-02-13 07:56:07,849 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_demo_fct.tmp_save
+2025-02-13 07:56:07,905 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\bsp_common_demo_fct.tmp
+2025-02-13 07:56:07,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Src\stm32wbxx_it.c_save
+2025-02-13 07:56:07,998 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Src\stm32wbxx_it.c
+2025-02-13 07:56:08,004 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\stm32wbxx_it.h_save
+2025-02-13 07:56:08,056 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\stm32wbxx_it.h
+2025-02-13 07:56:08,068 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Src\stm32wbxx_hal_msp.c_save
+2025-02-13 07:56:08,163 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Src\stm32wbxx_hal_msp.c
+2025-02-13 07:56:08,167 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\system.tmp_save
+2025-02-13 07:56:08,216 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\MXTmpFiles\system.tmp
+2025-02-13 07:56:08,225 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\stm32wbxx_hal_conf.h_save
+2025-02-13 07:56:08,281 [INFO] CodeEngine:335 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\stm32wbxx_hal_conf.h
+2025-02-13 07:56:08,294 [WARN] IPConfigManager:3005 - Warning: the RefConfig RCC_PClockConfig is not available in your config.xml file
+2025-02-13 07:56:08,309 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\main.h_save
+2025-02-13 07:56:08,378 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Inc\main.h
+2025-02-13 07:56:08,384 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Src\main.c_save
+2025-02-13 07:56:08,497 [INFO] CodeEngine:279 - Generated code: C:\Users\sykojo\Documents\_school\04_leto\SP1EL\WS\blikatko\Core\Src\main.c
+2025-02-13 07:56:08,806 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 165mS.
+2025-02-13 07:56:08,812 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-02-13 07:56:08,884 [INFO] ConfigFileManager:1531 - The Die is : DIE495
+2025-02-13 07:56:08,887 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-02-13 07:56:08,891 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-02-13 07:56:08,905 [INFO] ApiDbMcu:508 - Load IP Config File for STM32_WPAN
+2025-02-13 07:56:08,914 [INFO] ApiDbMcu:508 - Load IP Config File for TOUCHSENSING
+2025-02-13 07:56:08,921 [INFO] ApiDbMcu:508 - Load IP Config File for USB_Device

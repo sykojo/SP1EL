@@ -1,0 +1,17 @@
+14:40:54 **** Incremental Build of configuration Debug for project blikatko ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_BSP_COM_FEATURE=1 -DUSE_COM_LOG=1 -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/P-NUCLEO-WB55.Nucleo -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wbxx_it.d" -MT"Core/Src/stm32wbxx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_it.o"
+../Core/Src/stm32wbxx_it.c: In function 'EXTI0_IRQHandler':
+../Core/Src/stm32wbxx_it.c:209:24: error: 'hexti_0' undeclared (first use in this function)
+  209 |   HAL_EXTI_IRQHandler(&hexti_0);
+      |                        ^~~~~~~
+../Core/Src/stm32wbxx_it.c:209:24: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/stm32wbxx_it.c: In function 'EXTI1_IRQHandler':
+../Core/Src/stm32wbxx_it.c:223:24: error: 'H_EXTI_1' undeclared (first use in this function)
+  223 |   HAL_EXTI_IRQHandler(&H_EXTI_1);
+      |                        ^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/stm32wbxx_it.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+14:40:55 Build Failed. 3 errors, 0 warnings. (took 351ms)
+
