@@ -157,13 +157,13 @@ int main(void)
   MX_RTC_Init();
   /* USER CODE BEGIN 2 */
 
-  char* str = "Going into SLEEP MODE in 5 seconds\r\n";
+  char* str = "Going into SLEEP MODE\r\n";
   HAL_UART_Transmit(&huart1, (uint8_t *)str, strlen (str), HAL_MAX_DELAY);
 
-  for (int i = 0; i < 10; i++) {
-	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
-	  HAL_Delay(500);
-	}
+//  for (int i = 0; i < 10; i++) {
+//	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
+//	  HAL_Delay(500);
+//	}
 
   HAL_SuspendTick();
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, 0);
@@ -204,10 +204,10 @@ int main(void)
 		HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
 
 		//BLINK 5 TIMES
-		for (int i = 0; i < 10; i++) {
-			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
-			HAL_Delay(500);
-		}
+//		for (int i = 0; i < 10; i++) {
+//			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
+//			HAL_Delay(500);
+//		}
 
 		str = "GOING BACK TO SLEEP \n\n\r";
 		HAL_UART_Transmit(&huart1, (uint8_t *) str, strlen (str), HAL_MAX_DELAY);
@@ -394,7 +394,7 @@ static void MX_RTC_Init(void)
 
   /** Enable the WakeUp
   */
-  if (HAL_RTCEx_SetWakeUpTimer_IT(&hrtc, 60, RTC_WAKEUPCLOCK_CK_SPRE_16BITS) != HAL_OK)
+  if (HAL_RTCEx_SetWakeUpTimer_IT(&hrtc, 10, RTC_WAKEUPCLOCK_CK_SPRE_16BITS) != HAL_OK)
   {
     Error_Handler();
   }
